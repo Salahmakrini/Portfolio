@@ -39,15 +39,6 @@ const Header = () => {
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border-gray-100 rounded-lg bg-gray-900 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-gray-900">
             <li>
               <a
-                href="#"
-                className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-500 md:p-0"
-                aria-current="page"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <a
                 href="#aboutme"
                 className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-500 md:p-0"
               >

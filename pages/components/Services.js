@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Languages = () => {
+const Services = () => {
     return (
         <section class="bg-white dark:bg-gray-900">
             <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
@@ -35,7 +35,7 @@ const Languages = () => {
                             </svg>
                         </div>
                         <h3 class="mb-2 text-xl font-bold dark:text-white">SEO</h3>
-                        <p class="text-gray-500 dark:text-gray-400">We boost your website's visibility with powerful SEO techniques, propelling it to top search results and expanding your reach.</p>
+                        <p class="text-gray-500 dark:text-gray-400">I boost your website's visibility with powerful SEO techniques, propelling it to top search results and expanding your reach.</p>
                     </div>
                 </div>
             </div>
@@ -43,4 +43,4 @@ const Languages = () => {
     );
 };
 
-export default Languages;
+export default Services;
