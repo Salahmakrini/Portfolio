@@ -2,9 +2,9 @@ import React from "react";
 
 const Header = () => {
   return (
-    <nav className="bg-gray-900 border-gray-200">
+    <nav id="home" className="bg-gray-900 border-gray-200">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="#" className="flex items-center">
+        <a href="#home" className="flex items-center">
           <span className="self-center text-2xl font-semibold text-white whitespace-nowrap md:hover:text-purple-500 hover:bg-purple-700 md:hover:bg-transparent">
             Salah.dev
           </span>
@@ -43,6 +43,14 @@ const Header = () => {
                 className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-500 md:p-0"
               >
                 About me
+              </a>
+            </li>
+            <li>
+              <a
+                href="#services"
+                className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-purple-500 md:p-0"
+              >
+                Services
               </a>
             </li>
             <li>
